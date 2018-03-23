@@ -29,7 +29,7 @@
     
 }
 
-
+/** 使用方法 */
 #pragma mark -- HYZLocationManager使用示例
 //- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //
