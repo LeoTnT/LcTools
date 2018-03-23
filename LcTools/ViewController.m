@@ -30,7 +30,7 @@
 }
 
 
-//#pragma mark -- HYZLocationManager使用示例
+#pragma mark -- HYZLocationManager使用示例
 //- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //
 //    [self.hyzLocationManager beginUpdatingLocation];
@@ -56,49 +56,6 @@
 //    }
 //    return _hyzLocationManager;
 //}
-
-
-#pragma mark =================================
-//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-//{
-
-//    [LCUUIDTool getUUID1];
-//    [LCUUIDTool getUUID2];
-//    [LCUUIDTool getIDFA];
-//    [LCUUIDTool getIDFV];
-    
-    
-//    [LCAlertTool alertViewShowWithController:self message:@"666"];
-//    [LCAlertTool alertViewShowWithController:self title:@"提示框框" message:@"666" confirmTitle:@" 123" confirmHandle:^{
-//        NSLog(@"111111111");
-//    }];
-//    [LCAlertTool alertViewShowWithController:self title:@"提示框" message:@"alertView提示你" confirmTitle:@"确定" confirmHandle:^{
-//        NSLog(@"-------");
-//    } cancleTitle:@"取消" cancleHandle:^{
-//        NSLog(@"=======");
-//    }];
-
-//    [LCAlertTool actionSheetShowWithController:self confirmHandle:^{
-//        NSLog(@"123123");
-//    }];
-
-//    [LCAlertTool actionsheetShowWithController:self title:@"提示框" confirmTitle:@"确定" confirmHandle:^{
-//        NSLog(@"确定");
-//    } cancleTitle:@"取消" cancleHandle:^{
-//        NSLog(@"取消");
-//    }];
-    
-//    [LCAlertTool actionsheetShowWithController:self title:@"提示框" confirmTitle:@"确定" confirmHandle:^{
-//        NSLog(@"确定");
-//    } otherTitle:@"其他" otherHandle:^{
-//        NSLog(@"其他");
-//    } cancleTitle:@"取消" cancleHandle:^{
-//        NSLog(@"取消");
-//    }];
-
-//}
-
-
 
 #pragma mark -- LCLabel使用示例
 /*===============================*/
@@ -151,6 +108,46 @@
 //    // 你想要做的事
 //    NSLog(@"代理打印 %@", selectedStr);
 //    
+//}
+
+#pragma mark ======其他的使用示例
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+//{
+
+//    [LCUUIDTool getUUID1];
+//    [LCUUIDTool getUUID2];
+//    [LCUUIDTool getIDFA];
+//    [LCUUIDTool getIDFV];
+
+
+//    [LCAlertTool alertViewShowWithController:self message:@"666"];
+//    [LCAlertTool alertViewShowWithController:self title:@"提示框框" message:@"666" confirmTitle:@" 123" confirmHandle:^{
+//        NSLog(@"111111111");
+//    }];
+//    [LCAlertTool alertViewShowWithController:self title:@"提示框" message:@"alertView提示你" confirmTitle:@"确定" confirmHandle:^{
+//        NSLog(@"-------");
+//    } cancleTitle:@"取消" cancleHandle:^{
+//        NSLog(@"=======");
+//    }];
+
+//    [LCAlertTool actionSheetShowWithController:self confirmHandle:^{
+//        NSLog(@"123123");
+//    }];
+
+//    [LCAlertTool actionsheetShowWithController:self title:@"提示框" confirmTitle:@"确定" confirmHandle:^{
+//        NSLog(@"确定");
+//    } cancleTitle:@"取消" cancleHandle:^{
+//        NSLog(@"取消");
+//    }];
+
+//    [LCAlertTool actionsheetShowWithController:self title:@"提示框" confirmTitle:@"确定" confirmHandle:^{
+//        NSLog(@"确定");
+//    } otherTitle:@"其他" otherHandle:^{
+//        NSLog(@"其他");
+//    } cancleTitle:@"取消" cancleHandle:^{
+//        NSLog(@"取消");
+//    }];
+
 //}
 
 /*===============================*/
